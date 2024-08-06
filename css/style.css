@@ -250,7 +250,7 @@
 }
 
 .carousel-indicators {
-    display: none;
+	/* display: none; */
 }
 
 .carousel .carousel-control-prev,

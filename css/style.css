@@ -432,11 +432,12 @@
   transition: 0.5s;
   text-align: center;
 
+  border: 1px solid rgba(196, 211, 211, 0.9);
   border-radius: 10px;
   background: var(--bs-white);
 }
 .feature .feature-item:hover {
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
 }
 .feature .feature-item .feature-icon {
   display: flex;
@@ -457,9 +458,6 @@
 }
 .feature .feature-item a.btn {
   transition: 0.5s;
-}
-.feature .feature-item:hover a.btn:hover {
-  color: var(--bs-primary) !important;
 }
 /*** Features End ***/
 /*** About Start ***/

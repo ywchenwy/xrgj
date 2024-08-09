@@ -600,10 +600,10 @@
   align-items: center;
   justify-content: center;
 
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
 
-  border-radius: 50px;
+  border-radius: 20px;
   background: var(--bs-primary);
 }
 /*** Counter End ***/

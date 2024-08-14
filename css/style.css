@@ -627,6 +627,9 @@
 }
 .product .product-item img {
   transition: 0.5s;
+
+  object-fit: cover;
+  aspect-ratio: 3 / 4;
 }
 .product .product-item:hover img {
   transform: scale(1.2);

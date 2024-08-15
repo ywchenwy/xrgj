@@ -48,7 +48,7 @@ const querys = categoryIds.map((categoryId, index) =>
                   <img src="/oss/${item.imgPath}" class="img-fluid w-100 rounded-top" alt="Image">
               </div>
               <div class="product-content bg-light text-center rounded-bottom p-3">
-                  <a href="#" class="h6 d-inline-block mb-2">${item.name}</a>
+                  <p class="h6 d-inline-block mb-2">${item.name}</p>
                   <p class="fs-6 text-primary mb-2">
                       <i class="fas fa-star"></i>
                       <i class="fas fa-star"></i>
@@ -56,7 +56,7 @@ const querys = categoryIds.map((categoryId, index) =>
                       <i class="fas fa-star"></i>
                       <i class="fas fa-star"></i>
                   </p>
-                  <a href="#" class="btn btn-secondary rounded-pill py-2 px-4">More</a>
+                  <a href="product.html" class="btn btn-secondary rounded-pill py-2 px-4">More</a>
               </div>
           </div>
       </div>`);
